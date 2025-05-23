@@ -3,9 +3,6 @@
 Repositori ini berisi dua versi tampilan antarmuka aplikasi To Do List yang dikembangkan menggunakan dua framework berbeda: Bootstrap dan Tailwind CSS.
 
 ## Struktur Folder
-├── bootstrap/
-└── tailwind/
-
 ### 1. `bootstrap/`
 Folder ini berisi implementasi tampilan To Do List menggunakan Bootstrap.  
 Disusun oleh: Alexandra Pritha Sari
