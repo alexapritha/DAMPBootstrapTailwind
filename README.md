@@ -28,5 +28,5 @@ Setiap versi UI memiliki fitur yang sama, yaitu:
 ## Cara Menjalankan melalui Local File
 1. Klik tombol `Code` (warna hijau) di halaman repository, lalu pilih `Download ZIP`
 2. Ekstrak ZIP yang telah diunduh
-3. Masuk ke folder `bootstrap/` atau `tailwind/`
-4. Klik dua kali file `index.html` untuk membuka tampilan di browser
+3. Masuk ke folder `Bootstrap_SimplyToDoList/` atau `Tailwind_SimplyToDoList/`
+4. Klik dua kali file `ToDoApp.html` untuk membuka tampilan di browser
