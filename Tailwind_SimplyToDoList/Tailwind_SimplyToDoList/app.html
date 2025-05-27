@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply To Do</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="stayl.css" />
+</head>
+<body class="flex justify-center items-start pt-10 pb-10 bg-white">
+    <div class="mobile-container border border-gray-200 shadow-md bg-white flex flex-col">
+        <div class="flex justify-between items-center px-6 pt-2 h-8 text-sm text-gray-800">
+            <div>9:41 AM</div>
+            <div>
+                <i class="bi bi-wifi mr-2 text-base"></i>
+                <i class="bi bi-battery-full text-base"></i>
+            </div>
+        </div>
+
+        <br>
+        
+        <h1 class="text-3xl font-extrabold px-6 pt-2 pb-4">Simply To Do List</h1>
+
+        <br>
+
+        <section class="flex-1 px-6">
+            <article class="flex justify-between items-center border-b border-gray-300 py-3">
+                <div class="flex items-center gap-3 w-full">
+                    <input type="checkbox" class="w-5 h-5 border-2 border-gray-300 rounded mt-1">
+                    <div class="flex-1 min-w-0">
+                        <p class="text-sm mb-1 truncate">Minum 8 gelas air mineral</p>
+                        <span class="text-xs font-semibold text-blue-600 bg-blue-100 rounded px-2 py-0.5 inline-block">HEALTH</span>
+                    </div>
+                </div>
+                <button class="text-gray-500 ml-2">
+                    <i class="bi bi-x-lg text-lg"></i>
+                </button>
+            </article>
+
+            <article class="flex justify-between items-center border-b border-gray-300 py-3">
+                <div class="flex items-center flex-grow gap-3">
+                    <input type="checkbox" id="todo2" aria-labelledby="label2" class="w-5 h-5 border-2 border-gray-300 rounded cursor-pointer" />
+                    <div>
+                        <p id="label2" class="text-sm mb-1">Tugas Desain Antarmuka</p>
+                        <span class="text-xs font-semibold text-green-600 bg-green-100 rounded px-2 py-0.5">COLLEGE</span>
+                    </div>
+                </div>
+                <button class="p-0 ml-3" aria-label="Remove Tugas Desain Antarmuka">
+                    <i class="bi bi-x-lg text-lg"></i>
+                </button>
+            </article>
+
+
+            <article class="flex justify-between items-center border-b border-gray-300 py-3">
+                <div class="flex items-center flex-grow gap-3">
+                    <input type="checkbox" id="todo3" aria-labelledby="label3" class="w-5 h-5 border-2 border-gray-300 rounded cursor-pointer" />
+                    <div>
+                        <p id="label3" class="text-sm mb-1">Menyiapkan rapat besar event</p>
+                        <span class="text-xs font-semibold text-purple-600 bg-purple-100 rounded px-2 py-0.5">SOCIAL & COMMUNITY</span>
+                    </div>
+                </div>
+                <button class="p-0 ml-3" aria-label="Remove Menyiapkan rapat besar event">
+                    <i class="bi bi-x-lg text-lg"></i>
+                </button>
+            </article>
+
+
+            <article class="flex justify-between items-center border-b border-gray-300 py-3">
+                <div class="flex items-center flex-grow gap-3">
+                    <input type="checkbox" id="todo4" aria-labelledby="label4" class="w-5 h-5 border-2 border-gray-300 rounded cursor-pointer" />
+                    <div>
+                        <p id="label4" class="text-sm mb-1">Workout selama 15 menit</p>
+                        <span class="text-xs font-semibold text-blue-600 bg-blue-100 rounded px-2 py-0.5">HEALTH</span>
+                    </div>
+                </div>
+                <button class="p-0 ml-3" aria-label="Remove Workout selama 15 menit">
+                    <i class="bi bi-x-lg text-lg"></i>
+                </button>
+            </article>
+        </section>
+        <br><br><br><br>
+
+        <footer class="border-t border-gray-300 px-6 py-4 mt-auto">
+            <div class="flex gap-3">
+                <button class="bg-gray-900 text-white font-semibold py-3 px-6 rounded-xl flex-grow">Nama Penyusun</button>
+                <button class="bg-gray-900 text-white font-semibold text-xl w-14 h-14 rounded-xl flex justify-center items-center">+</button>
+            </div>
+        </footer>
+    </div>
+    <script src="sekrip.js"></script>
+</body>
+</html>
