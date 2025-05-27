@@ -9,7 +9,7 @@ Tugas ini disusun oleh Kelompok 3 yang beranggotakan :
 
 ## Struktur Folder
 DAMPBootstrapTailwind
-├── Bootstrap_SimplyToDoList/
+<br>├── Bootstrap_SimplyToDoList/ <br>
 └── Tailwind_SimplyToDoList/
 
 - `bootstrap/` → Berisi tampilan berbasis Bootstrap. Disusun oleh: Alexandra Pritha Sari  
