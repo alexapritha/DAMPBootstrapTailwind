@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 1rem;
+}
+
+.mobile-container {
+    width: 22.5rem;
+    height: 40rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 0.625rem rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+
+.inactive .todo-text,
+.inactive input[type="checkbox"] {
+    color: #b0b0b0 !important;
+    text-decoration: line-through;
+}
+.inactive .tag {
+    background-color: #f3f3f3 !important;
+    color: #b0b0b0 !important;
+}
+
+.inactive input[type="checkbox"] {
+    accent-color: #b0b0b0 !important;
+}
+
+
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+.basic-dialog {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    max-width: 280px;
+    width: 90%;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+
+.headline {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.supporting-text {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.close-btn {
+    background: #2e2b2b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background: #444;
+}
+
+/* .tag.health {
+    color: #3b82f6;
+    background-color: #dbeafe;
+}
+
+.tag.college {
+    color: #22c55e;
+    background-color: #dcfce7;
+}
+
+.tag.social {
+    color: #c084fc;
+    background-color: #f3e8ff;
+}
+
+.tag.others {
+    color: #64748b;
+    background-color: #f1f5f9;
+} */
