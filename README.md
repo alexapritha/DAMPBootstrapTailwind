@@ -1,4 +1,4 @@
-# DAMPBootstrapTailwind
+# Desain Antarmuka Pengguna: Implementasi Bootstrap dan Tailwind
 
 Repositori ini berisi dua versi tampilan antarmuka aplikasi To Do List yang dikembangkan menggunakan dua framework berbeda: Bootstrap dan Tailwind CS.
 Tugas ini disusun oleh Kelompok 3 yang beranggotakan :
